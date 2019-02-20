@@ -31,7 +31,6 @@ function dog1() {
         console.log('incorrect', lowerCaseDog);
       }
       if (lowerCaseDog === 'dogs') {
-        dog = prompt('Can you guess my favorite animal?');
         lowerCaseDog = dog.toLowerCase();
         j = 5
         globalScore++;
@@ -44,7 +43,7 @@ function dog1() {
   dog1();
 
 function drawing() {
-var drawing = prompt ('Dog, very good. Now can you try to guess what my favorite hobby is? I\'ll give you a hint, It has to do with a pen and paper.');
+var drawing = prompt ('Dogs, very good. Now can you try to guess what my favorite hobby is? I\'ll give you a hint, It has to do with a pen and paper.');
 console.log (drawing);
 
 var lowerCaseDrawing = drawing.toLowerCase();
@@ -56,7 +55,6 @@ for (var j = 0; j < 5; j++) {
       console.log('incorrect', lowerCaseDrawing);
     }
     if (lowerCaseDrawing === 'drawing') {
-      drawing = prompt('Can you guess my favorite animal?');
       lowerCaseDrawing = drawing.toLowerCase();
       j = 5
       globalScore++;
@@ -70,7 +68,7 @@ for (var j = 0; j < 5; j++) {
 drawing();
 
 function snowboarding() {
-var snowboarding = prompt ('Dog, your doing great. I wonder if you might know my favorite sport to do outside? I\'ll give you a hint, it has to do with the snow.');
+var snowboarding = prompt ('Drawing, your doing great. I wonder if you might know my favorite sport to do outside? I\'ll give you a hint, it has to do with the snow.');
 console.log (snowboarding);
 
 var lowerCaseSnowboarding = snowboarding.toLowerCase();
@@ -82,7 +80,6 @@ for (var j = 0; j < 5; j++) {
       console.log('incorrect', lowerCaseSnowboarding);
     }
     if (lowerCaseSnowboarding === 'snowboarding') {
-      snowboarding = prompt('Can you guess my favorite animal?');
       lowerCaseSnowboarding = snowboarding.toLowerCase();
       j = 5
       globalScore++;
