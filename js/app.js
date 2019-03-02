@@ -1,6 +1,6 @@
 'use strict'
 
-var globalScore = 0;
+var globalScore = 1;
 
 function intro() {
     var name = prompt ('What is my name?');
@@ -105,9 +105,9 @@ for (i = 0; i < 4; i++) {
         continue;
     } else if (number > guessNumber) {
         guessNumber = prompt('You\'ve guessed too low!');
-        globalScore++;
         continue;
     } alert('Good Job!');
+    globalScore++;
     break;
   }
 }
@@ -150,6 +150,7 @@ if (end === 'y' || end === 'Y' || end === 'yes' || end === 'Yes') {
 } else {
     alert('Well your no fun.....BYE!!!!');
   }
+  globalScore++;
 }
 
 end();
